@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    height: 500px;
+    border: 1px solid black;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-01, .div-02{
+    width: 250px;
+    height: 250px;
+    background-color: #de3737;
+
+    transition: .5s ease all;  /* Esta propriedade diz como vai ser a velocidade e estilo para o elemento quando houver alguma mudança de tamanho, lugar ou cor*/
+}
+
+.btn{
+    width: 100px;
+    height: 50px;
+    background-color: #f9ffff;
+    border: 1px solid blue;
+    border-radius: 8px;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.abrir-direita{
+    transform: translateX(-100px);
+}
+
+.abrir-esquerda{
+    transform: translateX(100px);
+}
